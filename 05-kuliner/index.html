@@ -5,57 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
     <!-- membuat navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="../01-landing-page/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img class="Logo-sumbawa" src="./bahan/logosumbawa.png" width="90" height="84" alt="logo">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4">Visit Sumbawa Island</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="../02-home-page/index.html" class="nav-link" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../03-destinasi-wisata/index.html" class="nav-link">Wisata</a></li>
+          <li class="nav-item"><a href="../04-budaya/index.html" class="nav-link">Budaya</a></li>
+          <li class="nav-item"><a href="../05-kuliner/bahan/" class="nav-link active">Kuliner</a></li>
+          <li class="nav-item"><a href="../06-eksplorasi/index.html" class="nav-link">Eksplore</a></li>
+          <li class="nav-item"><a href="../08-about-us/index.html" class="nav-link">About Us</a></li>
+        </ul>
+      </header>
+    </div>
+    <!-- navbar end -->
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../02-home-page/index.html">Home</a>
-              </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="../03-destinasi-wisata/index.html">Destinasi Wisata</a>
-              </li>
+      <!-- membuat main content -->
+      <!-- membuat card -->
+      <div class="card mb-3" style="max-width: 1020px; margin: 20px 190px; padding: 10px; display: flex;">
+        <div class="row g-0 d-flex">
+          <div class="col-md-10">
+            <img src="./bahan/singang-is-typical-sumbawa-food.jpg" class="img-fluid rounded-start" width="363" height="363" alt="singang">
+          </div>
+          <div class="col-md-9 row">
+            <div class="card-body">
+              <h5 class="card-title h1">Singang</h5>
+              <p class="card-text">Singang adalah salah satu makanan khas dari Sumbawa yang berbahan dasar ikan atau 
+                makanan laut lainnya. Singang sering kali dibuat untuk acara-acara keluarga baik acara besar maupun 
+                kecil. Biasanya Singang ini sering dijadikan sebagai salah satu menu utama ketika bulan Ramadhan.<br><br>
 
-              <li class="nav-item">
-                <a class="nav-link" href="../04-budaya/index.html">Budaya</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../05-kuliner/index.html">Kuliner</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../06-eksplorasi/index.html">Eksplorasi</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../07-info/index.html">Info</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../08-about-us/index.html">About Us</a>
-              </li>
-            </ul>
-
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+                Nah, penasaran kan gimana rasanya dari makanan khas ini yuk cari tahu resepnya.</p>
+                <button class="btn btn-outline-success" type="submit">View More</button>
+            </div>
           </div>
         </div>
-      </nav>
-    
+      </div>
+
+      <div class="card mb-3" style="max-width: 1020px; margin: 20px 190px; padding: 10px; display: flex;">
+        <div class="row g-0">
+          <div class="col-md-10">
+            <img src="./bahan/th (2).jpg" class="img-fluid rounded-start" width="363" height="363" alt="sepat">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title h1">Sepat</h5>
+              <p class="card-text">Sepat adalah salah satu makanan khas dari Sumbawa yang berbahan dasar ikan, ayam   
+                daging atau makanan laut lainnya yang dibakar. Sepat ini merupakan makanan yang berbentuk kuah yang 
+                bumbunya identik dengan asam pedas. Biasanya sepat ini dibuat menggunakan buah Mangga yang diolah 
+                kemudian dikasih air dan tidak hanya itu Sepat juga sering dibuat menggunakan asam dan buah yang lain. 
+                Sepat seringkali dijadikan menu utama pada saat bulan Ramadhan. jadi, tidak heran ketika bulan Ramadhan 
+                banyak asap dari pembakaran ikan. <br><br>
+
+                Nah, penasaran kan gimana rasanya dari makanan khas ini yuk cari tahu resepnya.</p>
+                <button class="btn btn-outline-success" type="submit">View More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 1020px; margin: 20px 190px; padding: 10px; display: flex;">
+        <div class="row g-0">
+          <div class="col-md-10">
+            <img src="./bahan/siong-sira-ayam-kampung-makanan-khas-sumbawa-foto-resep-utama.jpg" class="img-fluid rounded-start" width="363" height="363" alt="siong sira">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title h1">Siong Sira Ayam Kampung</h5>
+              <p class="card-text">Siong Sira adalah salah satu makanan khas Sumbawa yang berbahan dasar Ikan dan Ayam 
+                yang diolah dengan bumbu rahasia dimana bumbu itu dilumuri di setiap bagian ikan atau ayam lalu dibakar. 
+                makanan ini banyak kita jumpai di sumbawa karena bisa dibilang makanan ini adalah makanan favorit setiap 
+                hari untuk masyarakat sumbawa.<br><br>
+
+                Nah, penasaran kan gimana rasanya dari makanan khas ini yuk cari tahu resepnya.</p>
+                <button class="btn btn-outline-success" type="submit">View More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- membuat latest -->
+      <div id="latest">
+        <h1 id="latest-title">Latest</h1>
+        <div class="card-latest">
+            <div class="card-image-latest">
+                <img src="./bahan/th (2).jpg" width="153px" height="153px" alt="sepat"/>
+            </div>
+            <div class="card-body-latest">
+                <h2 class="card-title-latest">Sepat</h2>
+                <h3>Sumbawa</h3>
+                <p class="text-latest">Sepat adalah salah satu makanan khas dari Sumbawa yang berbahan dasar ikan, ayam daging atau makanan laut lainnya yang dibakar. Sepat ini merupakan makanan yang berbentuk kuah yang bumbunya identik dengan asam pedas. Biasanya sepat ini dibuat menggunakan buah Mangga yang diolah kemudian dikasih air dan tidak hanya itu Sepat juga sering dibuat menggunakan asam dan buah yang lain. Sepat seringkali dijadikan menu utama pada saat bulan Ramadhan. jadi, tidak heran ketika bulan Ramadhan banyak asap dari pembakaran ikan. <br><br>
+
+                    Nah, penasaran kan gimana rasanya dari makanan khas ini yuk cari tahu resepnya.
+                </p>
+                <a href="#">
+                    <button class="button-latest">Read More</button>
+                </a>
+            </div>
+        </div>
+        
+        <div class="card-latest">
+            <div class="card-image-latest">
+                <img src="./bahan/singang-is-typical-sumbawa-food.jpg" width="153px" height="153px" alt="sepat"/>
+            </div>
+            <div class="card-body-latest">
+                <h2 class="card-title-latest">Singang</h2>
+                <h3>Sumbawa</h3>
+                <p class="text-latest">Singang adalah salah satu makanan khas dari Sumbawa yang berbahan dasar ikan atau makanan laut lainnya. Singang sering kali dibuat untuk acara-acara keluarga baik acara besar maupun kecil. Biasanya Singang ini sering dijadikan sebagai salah satu menu utama ketika bulan Ramadhan.<br><br>
+
+                    Nah, penasaran kan gimana rasanya dari makanan khas ini yuk cari tahu resepnya.
+                </p>
+                <a href="#">
+                    <button class="button-latest">Read More</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="card-latest">
+            <div class="card-image-latest">
+                <img src="./bahan/siong-sira-ayam-kampung-makanan-khas-sumbawa-foto-resep-utama.jpg" width="153px" height="153px" alt="sepat"/>
+            </div>
+            <div class="card-body-latest">
+                <h2 class="card-title-latest">Siong Sira Ayam Kampung</h2>
+                <h3>Sumbawa</h3>
+                <p class="text-latest">Siong Sira adalah salah satu makanan khas Sumbawa yang berbahan dasar Ikan dan Ayam yang diolah dengan bumbu rahasia dimana bumbu itu dilumuri di setiap bagian ikan atau ayam lalu dibakar. makanan ini banyak kita jumpai di sumbawa karena bisa dibilang makanan ini adalah makanan favorit setiap hari untuk masyarakat sumbawa.<br><br>
+
+                    Nah, penasaran kan gimana rasanya dari makanan khas ini yuk cari tahu resepnya. 
+                </p>
+                <a href="#">
+                    <button class="button-latest">Read More</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+      <!-- membuat footer -->
+
+      <div id="footer">
+        <div class="contact">
+            <div class="text1">
+            <h3 class="contact-us">Contact Us</h3>
+            <p>Leave a Message</p>
+            </div>
+
+            <div class="text2">
+                <h3 class="contact-us">Sitemap</h3>
+                <a href="https://skilvul.com/home"><p>skilvul</p></a>
+            </div>
+        </div>
+
+        <div class="form">
+            <div class="formA">
+            <form action="/Web-Project1/index.html">
+                <input type="text" name="name" placeholder="Full Name"/><br><br>
+                <input type="text" name="email" placeholder="Email" /><br><br>
+                <textarea rows="10" cols="40" placeholder="Tulis komentar Anda di sini...."></textarea><br><br>
+                <button class="submit">Submit</button>
+            </form>
+            <img src="./bahan/logosumbawa.png" width="302px" height="302px" alt="Logo Sumbawa">
+            </div>
+        </div>
+
+        <div id="footer-bottom">
+          <p>Copyright 2022 All Rights Reserved Visit Sumbawa Island</p>
+        </div>
+    </div>
 
 
 
