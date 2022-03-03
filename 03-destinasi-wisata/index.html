@@ -8,8 +8,9 @@
     <title>Visit Sumbawa Island</title>
   </head>
   <body>
+    
     <!-- membuat navbar -->
-    <div class="container">
+    <!-- <div class="container">
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="../01-landing-page/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
           <img class="Logo-sumbawa" src="./asset/logosumbawa.png" width="90" height="84" alt="logo" />
@@ -24,6 +25,28 @@
           <li class="nav-item"><a href="../05-kuliner/index.html" class="nav-link">Kuliner</a></li>
           <li class="nav-item"><a href="../06-eksplorasi/index.html" class="nav-link">Eksplore</a></li>
           <li class="nav-item"><a href="../08-about-us/index.html" class="nav-link">About Us</a></li>
+        </ul>
+      </header>
+    </div> -->
+    <!-- navbar end -->
+
+
+    <!-- membuat navbar -->
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #4e878c;">
+        <a href="../01-landing-page/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img class="Logo-sumbawa bg-white rounded-circle" style="margin: 0px 20px;" src="./asset/logosumbawa.png" width="90" height="84" alt="logo" />
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
+          <span class="fs-4 text-white">Visit Sumbawa Island</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="../02-home-page/index.html" class="nav-link text-white" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../03-destinasi-wisata/index.html" class="nav-link active" style="background-color: #275964;">Wisata</a></li>
+          <li class="nav-item"><a href="../04-budaya/index.html" class="nav-link text-white">Budaya</a></li>
+          <li class="nav-item"><a href="../05-kuliner/index.html" class="nav-link text-white">Kuliner</a></li>
+          <li class="nav-item"><a href="../06-eksplorasi/index.html" class="nav-link text-white">Eksplore</a></li>
+          <li class="nav-item"><a href="../08-about-us/index.html" class="nav-link text-white">About Us</a></li>
         </ul>
       </header>
     </div>
@@ -207,7 +230,7 @@
 
 
     <!-- membuat footer -->
-    <div class="container-fluid border-2 bg-secondary bg-opacity-75 text-center text-light">
+    <!-- <div class="container-fluid border-2 bg-secondary bg-opacity-75 text-center text-light">
       <footer class="py-5">
         <div class="row">
           <div class="col-6">
@@ -234,10 +257,40 @@
               </div>
             </form>
           </div>
-        </div>
+        </div> -->
+
+        <div class="container-fluid border-2 bg-secondary bg-opacity-75 text-center text-light">
+          <footer class="py-5" style="background-color: #4e878c;">
+            <div class="row">
+              <div class="col-6">
+                <h5 class="h-3">Sitemap</h5>
+                <ul class="nav flex-column justify-content-center">
+                  <li class="nav-item mb-2"><a href="../02-home-page/index.html" class="nav-link p-0 text-light">Home</a></li>
+                  <li class="nav-item mb-2"><a href="../03-destinasi-wisata/index.html" class="nav-link p-0 text-light">Wisata</a></li>
+                  <li class="nav-item mb-2"><a href="../04-budaya/index.html" class="nav-link p-0 text-light">Budaya</a></li>
+                  <li class="nav-item mb-2"><a href="../05-kuliner/index.html" class="nav-link p-0 text-light">Kuliner</a></li>
+                  <li class="nav-item mb-2"><a href="../06-eksplorasi/index.html" class="nav-link p-0 text-light">Eksplore</a></li>
+                  <li class="nav-item mb-2"><a href="../08-about-us/index.html" class="nav-link p-0 text-light">About Us</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-4 offset-1 container-sm">
+                <form>
+                  <h5>Contact Us</h5>
+                  <p>Leave a Message</p>
+                  <div class="d-flex row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tuliskan pesan dan kesanmu disini..." rows="3"></textarea>
+                    <a href="../09-thanks/index.html"><button class="btn btn-dark container" type="button">Submit</button></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+    
 
         <div class="d-flex justify-content-center py-4 my-4 border-top">
-          <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
           <!-- <ul class="list-unstyled d-flex">
             <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
             <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>

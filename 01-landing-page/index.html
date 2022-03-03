@@ -29,20 +29,20 @@
   </head>
   <body>
     <!-- membuat navbar -->
-    <div class="container">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <div class="container-lg">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #4e878c;">
         <a href="../01-landing-page/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <img class="Logo-sumbawa" src="./asset/logosumbawa.png" width="90" height="84" alt="logo" />
-          <span class="fs-4">Visit Sumbawa Island</span>
+          <img class="Logo-sumbawa bg-white rounded-circle" style="margin: 0px 20px;" src="./asset/logosumbawa.png" width="90" height="84" alt="logo" />
+          <span class="fs-4 text-white">Visit Sumbawa Island</span>
         </a>
 
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="../02-home-page/index.html" class="nav-link" aria-current="page">Home</a></li>
-          <li class="nav-item"><a href="../03-destinasi-wisata/wisata.html" class="nav-link">Wisata</a></li>
-          <li class="nav-item"><a href="../04-budaya/budaya.html" class="nav-link">Budaya</a></li>
-          <li class="nav-item"><a href="../05-kuliner/index.html" class="nav-link">Kuliner</a></li>
-          <li class="nav-item"><a href="../06-eksplorasi/index.html" class="nav-link">Eksplore</a></li>
-          <li class="nav-item"><a href="../08-about-us/AboutUs.html" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="../02-home-page/index.html" class="nav-link text-white" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../03-destinasi-wisata/index.html" class="nav-link text-white">Wisata</a></li>
+          <li class="nav-item"><a href="../04-budaya/index.html" class="nav-link text-white">Budaya</a></li>
+          <li class="nav-item"><a href="../05-kuliner/index.html" class="nav-link text-white">Kuliner</a></li>
+          <li class="nav-item"><a href="../06-eksplorasi/index.html" class="nav-link text-white">Eksplore</a></li>
+          <li class="nav-item"><a href="../08-about-us/index.html" class="nav-link text-white">About Us</a></li>
         </ul>
       </header>
     </div>
@@ -54,7 +54,7 @@
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">Salah satu pulau di Indonesia yang memiliki beragam budaya, destinasi wisata dan bahkan kulinernya yang sangat menggugah.</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <a href="../02-home-page/index.html"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Lets Get Started</button></a>
+          <a href="../02-home-page/index.html"><button type="button" class="btn btn-dark btn-lg px-4 me-sm-3">Lets Get Started</button></a>
         </div>
       </div>
       <div class="overflow-hidden" style="max-height: 30vh">
@@ -66,7 +66,7 @@
 
     <!-- membuat footer -->
     <div class="container-fluid border-2 bg-secondary bg-opacity-75 text-center text-light">
-      <footer class="py-5">
+      <footer class="py-5" style="background-color: #4e878c;">
         <div class="row">
           <div class="col-6">
             <h5 class="h-3">Sitemap</h5>
@@ -88,14 +88,14 @@
                 <label for="newsletter1" class="visually-hidden">Email address</label>
                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tuliskan pesan dan kesanmu disini..." rows="3"></textarea>
-                <button class="btn btn-primary container" type="button">Submit</button>
+                <a href="../09-thanks/index.html"><button class="btn btn-dark container" type="button">Submit</button></a>
               </div>
             </form>
           </div>
         </div>
 
         <div class="d-flex justify-content-center py-4 my-4 border-top">
-          <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
           <!-- <ul class="list-unstyled d-flex">
             <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
             <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
@@ -106,6 +106,8 @@
     </div>
     <!-- end footer -->
 
+
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
