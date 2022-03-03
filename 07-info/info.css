@@ -1,0 +1,20 @@
+.Logo-sumbawa {
+        height: 70px;
+        width: 160px;
+        object-fit: cover;       
+}
+
+footer {
+    background-color:#666666;
+}
+
+.Footer-bottom{
+background-color: #333333;
+}
+
+.latest-page {
+    background: #eeeeee;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
